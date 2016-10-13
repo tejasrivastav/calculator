@@ -1,0 +1,25 @@
+{
+  "name": "calculator",
+  "description": "",
+  "main": "src/index.js",
+  "authors": [
+    "Teja Srivastasa <teja@datarpm.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "#1.11",
+    "angular": "#1.5.2",
+    "angular-material": "^1.1.1"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
+  }
+}

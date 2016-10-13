@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.solution {
+  text-align: right;
+  min-height: 22px;
+  color: white;
+  background: #673AB7;
+  padding: 6px;
+  font-size: 1.2em;
+}

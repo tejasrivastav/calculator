@@ -1,0 +1,40 @@
+<md-card>
+  <div>
+    <div class="solution">
+      <span>{{equation}}</span>
+      <span ng-if="equation">=</span>
+      <span>{{computedValue}}</span>
+    </div>
+    <div class="container">
+      <div class="numbers">
+        <div>
+          <span><md-button class="md-primary" value="0" data-ng-click="valueClicked('0')">0</md-button></span>
+          <span><md-button class="md-primary" value="1" data-ng-click="valueClicked('1')">1</md-button></span>
+          <span><md-button class="md-primary" value="2" data-ng-click="valueClicked('2')">2</md-button></span>
+        </div>
+        <div>
+          <span><md-button class="md-primary" value="3" data-ng-click="valueClicked('3')">3</md-button></span>
+          <span><md-button class="md-primary" value="4" data-ng-click="valueClicked('4')">4</md-button></span>
+          <span><md-button class="md-primary" value="5" data-ng-click="valueClicked('5')">5</md-button></span>
+        </div>
+        <div>
+          <span><md-button class="md-primary" value="6" data-ng-click="valueClicked('6')">6</md-button></span>
+          <span><md-button class="md-primary" value="7" data-ng-click="valueClicked('7')">7</md-button></span>
+          <span><md-button class="md-primary" value="8" data-ng-click="valueClicked('8')">8</md-button></span>
+        </div>
+        <div>
+          <span><md-button class="md-primary" value="9" data-ng-click="valueClicked('9')">9</md-button></span>
+        </div>
+      </div>
+      <div class="operations">
+        <span><md-button class="md-primary" value="+" data-ng-click="valueClicked('+')">+</md-button></span>
+        <span><md-button class="md-primary" value="-" data-ng-click="valueClicked('-')">-</md-button></span>
+        <span><md-button class="md-primary" value="x" data-ng-click="valueClicked('*')">*</md-button></span>
+        <span><md-button class="md-primary" value="/" data-ng-click="valueClicked('/')">/</md-button></span>
+      </div>
+      <div>
+        <span><md-button class="md-primary" value="C" data-ng-click="valueClicked('c')">Clear</md-button></span>
+      </div>
+    </div>
+  </div>
+</md-card>
